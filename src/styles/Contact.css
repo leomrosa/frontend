@@ -1,0 +1,66 @@
+/* Seção de Contactos */
+.contact-section {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;        /* Tamanho uniforme com outras secções */
+  font-weight: 700;         /* Bold mais forte */
+  margin-bottom: 40px;
+  color: #111;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Container dos cartões de contacto */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Cartões individuais */
+.contact-card {
+  background-color: #f9fafc;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  text-align: center;
+  flex: 1 1 280px;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Ícones */
+.contact-card img {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 16px;
+}
+
+/* Título do cartão */
+.contact-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Texto do cartão */
+.contact-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+

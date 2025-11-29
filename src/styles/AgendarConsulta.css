@@ -1,0 +1,125 @@
+.agendar-page {
+  background-color: #fcfcf7;
+  padding: 60px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.agendar-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.agendar-card h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.agendar-card .especialidade {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.agendar-card .subespecialidade {
+  font-style: italic;
+  color: #555;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-agendar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-agendar label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.form-agendar input,
+.form-agendar textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  width: 100%;
+  resize: none;
+}
+
+.form-agendar button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-agendar button:hover {
+  background-color: #0056b3;
+}
+
+/* Indicador de consulta */
+.dot {
+  width: 6px;
+  height: 6px;
+  background-color: #007bff;
+  border-radius: 50%;
+  margin: 4px auto 0 auto;
+}
+
+/* Grid de horários */
+.horarios-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.horarios-grid button {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+  color: #333;
+  font-weight: 500;
+}
+
+.horarios-grid button:hover:enabled {
+  background-color: #f0f0f0;
+}
+
+.horarios-grid button:disabled {
+  background-color: #f5f5f5;
+  color: #888; /* Mais legível em contraste com fundo claro */
+  border: 1px solid #ddd;
+  cursor: not-allowed;
+  opacity: 1; /* Mantém o contraste e legibilidade */
+}
+
+.horarios-grid button.hora-selecionada {
+  background-color: #007bff !important;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #0056b3;
+}
+

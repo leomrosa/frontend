@@ -1,0 +1,113 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Link do logo */
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Imagem do logo unificada */
+.logo-image-only {
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Navegação principal */
+header nav {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.4s ease;
+}
+
+header nav a:hover {
+    color: #007bff;
+}
+
+/* Links de autenticação */
+.auth-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Botão de Login e Logout */
+.auth-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.4s ease;
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
+}
+
+/* Ícone do Perfil */
+.profile-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s ease;
+}
+
+.profile-icon:hover {
+    color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .logo-link {
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        flex-grow: 0;
+        margin-left: 0;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .auth-links {
+        margin-top: 10px;
+    }
+
+    .logo-image-only {
+        height: 35px;
+    }
+}
+

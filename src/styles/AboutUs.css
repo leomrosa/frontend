@@ -1,0 +1,39 @@
+.about-us-section {
+    padding: 60px 20px;
+    background-color: #f9fafc;
+  }
+  
+  .about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-us-section-one,
+  .about-us-section-two {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-section-one h2,
+  .about-us-section-two h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-us-section-one p,
+  .about-us-section-two p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .about-us-section-two {
+    background-color: #e0f3ff; /* Azul claro */
+  }
+  

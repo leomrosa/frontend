@@ -1,0 +1,235 @@
+.profile-page { 
+  background-color: #fcfcf7;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.especialidade {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+.subespecialidade {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.localizacao, .preco {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+}
+
+.descricao {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.profile-description {
+  margin-top: 2rem;
+  text-align: left;
+  padding: 0 0.5rem;
+}
+
+.agendar-btn {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.agendar-btn:hover {
+  background-color: #0056b3;
+}
+
+.pack-compra {
+  margin-top: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pack-compra label {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.pack-compra select {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.pack-compra button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.pack-compra button:hover {
+  background-color: #0056b3;
+}
+
+.avaliacoes, .atendimento, .formacoes-section, .locais-section {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.avaliacao {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.formacoes-section ul,
+.locais-section ul {
+  list-style-type: disc;
+  padding-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.formacoes-section li,
+.locais-section li {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+/* NOVO: Selector de Especialidades no perfil */
+.especialidade-selector {
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.especialidade-selector label {
+  font-weight: bold;
+}
+
+.especialidade-selector select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+
+.bio-section {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.bio-section p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+
+.idiomas-section,
+.freguesias-section {
+  margin-top: 25px;
+}
+
+.idiomas-section h3,
+.freguesias-section h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.idiomas-section ul,
+.freguesias-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.idiomas-section li,
+.freguesias-section li {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+
+.idiomas-section,
+.atendimento-section {
+  margin-top: 2rem;
+  background-color: #f9f9f9;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.idiomas-section h3,
+.atendimento-section h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.idiomas-section ul,
+.atendimento-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.idiomas-section li,
+.atendimento-section li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.idiomas-section li:last-child,
+.atendimento-section li:last-child {
+  border-bottom: none;
+}

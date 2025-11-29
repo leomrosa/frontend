@@ -1,0 +1,73 @@
+.marcar-consulta-page {
+  padding: 60px 20px;
+  background-color: #fcfcf7;
+}
+
+.marcar-consulta-page h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.marcar-consulta-page section {
+  margin-bottom: 40px;
+}
+
+.marcar-consulta-page h3 {
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  color: #333;
+  text-align: center;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.therapist-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.therapist-card:hover {
+  transform: translateY(-5px);
+}
+
+.therapist-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.therapist-card h4 {
+  margin: 0.5rem 0 0.25rem;
+}
+
+.therapist-card p {
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.therapist-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.therapist-card button:hover {
+  background-color: #0056b3;
+}
+

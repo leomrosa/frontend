@@ -1,0 +1,57 @@
+.documentos-section {
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.documentos-section h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.upload-item {
+  margin-bottom: 20px;
+}
+
+.upload-item label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.upload-item input[type="file"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.upload-item p {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #007bff;
+}
+
+.documentos-btn-wrapper {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.save-docs-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save-docs-btn:hover {
+  background-color: #218838;
+}
+

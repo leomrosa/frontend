@@ -1,0 +1,73 @@
+/* Seção Nossos Serviços */
+.services-section {
+    background-color: #f9fafc;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Reorganizar em telas menores */
+}
+
+.service-card {
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 30%; /* Garantir que três cartões fiquem lado a lado */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Diferentes tons de azul */
+.service-card:nth-child(1) {
+    background-color: #325c9c; /* Azul mais escuro */
+}
+
+.service-card:nth-child(2) {
+    background-color: #5b83b5; /* Azul médio */
+}
+
+.service-card:nth-child(3) {
+    background-color: #476c8b; /* Azul mais claro */
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.service-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #d1d5db; /* Texto em cinza claro */
+    margin-bottom: 15px;
+}
+
+.service-card a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #93c5fd; /* Azul claro para links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.service-card a:hover {
+    color: #60a5fa; /* Azul mais claro no hover */
+}

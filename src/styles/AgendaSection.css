@@ -1,0 +1,88 @@
+.agenda-section {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.agenda-section h2 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.agenda-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.calendar-wrapper {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.appointments-wrapper {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.appointments-wrapper h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.appointment-list {
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.appointment-list li {
+  padding: 10px 16px;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+.appointment-list li:last-child {
+  border-bottom: none;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.react-calendar__tile {
+  padding: 0.75em 0.5em;
+  border-radius: 6px;
+  position: relative;
+}
+
+.react-calendar__tile--now {
+  background: #e6f0ff;
+  color: #007bff;
+}
+
+.react-calendar__tile--active {
+  background: #007bff;
+  color: white;
+}
+
+.react-calendar__tile:enabled:hover {
+  background: #dbefff;
+}
+
+
+

@@ -1,0 +1,46 @@
+.profissional-detalhe {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  min-height: 80vh;
+}
+
+.detalhe-card {
+  background: #fff;
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.detalhe-card .foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.detalhe-card h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+}
+
+.detalhe-card p {
+  margin: 6px 0;
+}
+
+.secao {
+  margin-top: 25px;
+}
+
+.secao h4 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.secao ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+

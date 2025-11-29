@@ -1,0 +1,116 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 80vh;
+  background-color: #f8f9fa;
+  padding: 30px 0;
+}
+
+.dashboard-box {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: visible; /* IMPORTANTE para permitir dropdown fora do box */
+}
+
+.dashboard-nav {
+  display: flex;
+  background-color: #f1f1f1;
+  border-bottom: 2px solid #ddd;
+  overflow-x: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.dashboard-nav .tab-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.dashboard-nav button {
+  flex: 1;
+  padding: 12px 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.dashboard-nav button:hover {
+  background-color: #e9ecef;
+}
+
+.dashboard-nav button.active {
+  font-weight: bold;
+  color: #007bff;
+  border-bottom: 3px solid #007bff;
+  background-color: #fff;
+}
+
+.dashboard-content {
+  padding: 20px;
+  background-color: #fff;
+  min-height: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Dropdown menu dentro do perfil */
+.tab-wrapper {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  list-style: none;
+  padding: 6px 0;
+  margin: 0;
+  min-width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.2s ease;
+  z-index: 9999; /* Aumentado para garantir sobreposição */
+}
+
+.tab-wrapper:hover .dropdown-menu,
+.tab-wrapper .dropdown-menu.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.dropdown-menu li {
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f6f6f6;
+}
+

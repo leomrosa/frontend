@@ -1,0 +1,124 @@
+.register-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9fafc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-page h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-form .form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.register-form .form-group label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.register-form .form-group input,
+.register-form .form-group select,
+.register-form .form-group textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.register-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+/* Novas adições para a secção clínica */
+.clinical-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f1f3f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.clinical-section h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #444;
+  text-align: left;
+}
+
+.clinical-section .file-upload {
+  margin-top: 20px;
+}
+
+.clinical-section .file-upload label {
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.clinical-section .file-upload input[type="file"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background-color: #fff;
+}
+
+.clinical-section .file-upload small {
+  color: #777;
+  font-size: 0.85rem;
+  display: block;
+  margin-top: 4px;
+}
+
+
+.file-upload-wrapper.enhanced {
+  margin-top: 10px;
+  background-color: #f1f3f5;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: 1px dashed #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.file-upload-wrapper.enhanced input[type="file"] {
+  font-size: 0.95rem;
+  border: none;
+  background: none;
+  padding: 0;
+}
+

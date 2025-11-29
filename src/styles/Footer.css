@@ -1,0 +1,76 @@
+/* Rodapé atualizado */ 
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-links {
+  margin-bottom: 30px;
+}
+
+.footer-links h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #ddd; /* Um tom cinza para contrastar com os links */
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap; /* Para melhor responsividade */
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #007bff; /* Azul destacado ao passar o mouse */
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Melhor organização em telas menores */
+}
+
+.footer-bottom a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 5px 0; /* Espaçamento para elementos em telas pequenas */
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Centraliza os ícones sociais */
+  margin-top: 10px; /* Adiciona espaço acima em telas pequenas */
+}
+
+.footer-socials a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #007bff;
+}
